@@ -1,0 +1,91 @@
+#header{
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 90px;
+    width: 99%;
+    margin: auto;
+    background-color: blue;
+    position:fixed;
+    z-index: 1;
+    background: linear-gradient(#695D52, #3C3023);
+}
+
+#name{
+    font-family: Verdana;
+    font-size: 65px;
+    color: white;
+    float: center;
+    margin: 5px 25% 5px 30%%;
+    z-index: 2;
+    position: fixed;
+    float:right;
+    display: inline-block; 
+    color: white; 
+}
+
+.left{
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 575px;
+    width: 295px;
+    background-color: #79726C;
+    float: left;
+    position: relative;
+    margin-top: 113px;
+    display: inline;
+    margin-left:20px;
+    color: white;   
+}
+
+img{
+    margin: 45px 45px 38px 45px;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: relative;
+}
+
+
+.right{
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 575px;
+    width: 1000px;
+    background-color: #79726C;
+    float: right;
+    position: relative;
+    margin-top: 113px;
+    margin-right: 20px;
+    display: inline;
+    color: white;
+    padding-top: 25px;
+    padding-left: 3px;
+}
+.text{ 
+    margin-left: 15px;
+    color: black;
+    font-family: serif;
+    color: white;
+}
+.text2{ 
+    margin-left: 15px;
+    margin-top: 10px;
+    color: black;
+    font-family: serif;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    font-weight: bold;
+}
+h1{
+    font-family: sans-serif;
+    text-align: center;
+
+}
+.titles{
+    font-family: sans-serif;
+    margin-left: 14px;
+    color: white;
+}
