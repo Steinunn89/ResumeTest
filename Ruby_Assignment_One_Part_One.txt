@@ -1,0 +1,27 @@
+Part 1
+
+puts "Enter first number"
+number_one = gets.chomp.to_i
+puts "Enter second number"
+number_two = gets.chomp.to_i
+answer = number_one+=number_two
+puts answer
+
+Part 2
+
+my_favourite_cities = [ "Reykjavik", "Toronto", "Kingston", "Montreal", "Chania" ]
+my_favourite_cities.each {|x| puts x}
+
+Part 3 
+
+for i in 1..100
+    if i % 3 == 0 && i % 5 == 0
+    print "BitmakerLabs, "
+    
+    elsif i % 3 == 0
+    print "Bitmaker, "
+    
+    else
+    print i.to_s + ", "
+    end
+end
